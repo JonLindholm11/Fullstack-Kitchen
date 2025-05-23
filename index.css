@@ -1,0 +1,57 @@
+
+main {
+    display: flex;
+    background-color: wheat;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 40px;
+    gap: 10px;
+    margin-left: -15px;
+}
+.brand {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 15;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+blockquote {
+    font-style: italic;
+    background-color: rgb(178, 176, 176);
+    display: flex;
+}
+article {
+    flex-direction: column;
+    order: 2;
+}
+.b1 {
+    background-color: lavender;
+}
+body{
+    background-color: wheat;
+}
+.b2 {
+    background-color: lightpink;
+
+}
